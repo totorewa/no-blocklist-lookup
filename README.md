@@ -7,4 +7,4 @@ As of writing this (2022-01-06), Mojang's blocklist API is not working properly 
 to fetch the blocklist on every chat message with a 2 minute cooldown, causing the client to freeze after every 
 2 minutes when someone sends a chat message.
 
-You should not use this mod if you need the blocklist.
+You should not use this mod if you need the blocklist. If you don't want to disable the blocklist, you may alternatively use [async-chat-mod](https://github.com/totorewa/async-chat-mod) which instead offloads chat messages to another thread to prevent the render loop from getting blocked.
